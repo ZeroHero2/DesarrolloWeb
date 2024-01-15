@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(182, 198, 40);
+    margin: 10px;
+    transition: transform 1.2s;
+}
+
+.container:hover .box{
+    transform: scale(1.5);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+   <form action="">
+
+    <label for="nombre">
+        <span>Nombre:</span>
+        <input type="text" id="nombre" placeholder="Juanito" autocomplete="name" required>
+    </label>
+
+    <label for="correo">
+        <span>Correo</span>
+        <input type="email" id="correo" autocomplete="email" required>
+    </label>
+
+    <label for="pais">
+        <span>Pais</span>
+        <input type="text" id="pais" autocomplete="country" required>
+    </label>
+
+    <label for="cp">
+        <span>Codigo postal</span>
+        <input type="number" id="cp" autocomplete="postal-code" required>
+    </label>
+
+    <input type="submit">
+   </form>
+
+   <select name="cursos" id="">
+    <option value="JavaScript">JavaScript</option>
+    <option value="HTML5">HTML5</option>
+    <option value="CSS3">CSS3</option>
+    <option value="React">React</option>
+   </select>
+
+   <input list="cursos">
+   <datalist id="cursos">
+    <option value="JavaScript"></option>
+    <option value="HTML5"></option>
+    <option value="Base de datos"></option>
+    <option value="Angular"></option>
+   </datalist> 
+
+</main>
+
+</body>
+
+</html>
