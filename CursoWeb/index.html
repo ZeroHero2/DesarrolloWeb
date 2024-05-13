@@ -3,34 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formularios</title>
 </head>
 <body>
-    <main>
-   <form action="">
+    <header>
+    <nav>
+        <ul class="main_nav">
+            <li class="main_nav_item"> <a href="">Home</a>  </li>
+            <li class="main_nav_item"> <a href="">Productos</a> </li>
+            <li class="main_nav_item"> <a href="">Servicios</a> </li>
+        </ul>
+    </nav>    
+    </header>
 
-    <label for="nombre">
-        <span>Nombre:</span>
-        <input type="text" id="nombre" placeholder="Juanito" autocomplete="name" required>
-    </label>
 
-    <label for="correo">
-        <span>Correo</span>
-        <input type="email" id="correo" autocomplete="email" required>
-    </label>
+    <main id="principal">
+        <picture>
+            <img class="banner" src="/imagenes/Banner_large.jpg" alt="">
+        </picture>
 
-    <label for="pais">
-        <span>Pais</span>
-        <input type="text" id="pais" autocomplete="country" required>
-    </label>
+        <h1>Curso de HTML y CSS</h1>
 
-    <label for="cp">
-        <span>Codigo postal</span>
-        <input type="number" id="cp" autocomplete="postal-code" required>
-    </label>
+        <section id="tarjetas">
+            <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div> 
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+             <div class="padre_tarjeta">
+                <div> <h2>Tacos</h2></div>
+                <div><img src="/imagenes/tacos.jpg" alt=""></div>
+                <div><p>Descripcion del platillo</p></div>
+                <div><button>Comprar</button></div>
+             </div>
+              
+        </section>
 
-    <input type="submit">
-   </form>
+
+        <section class="section-formulario">
+            <h2>Formularios</h2>
+            <p>Formulario con tipos de datos</p>
+            <form action="" class="form">
+
+                <label for="nombre">
+                    <span>Nombre:</span>
+                    <input type="text" id="nombre" placeholder="Juanito" autocomplete="name" required>
+                </label>
+            
+                <label for="correo">
+                    <span>Correo</span>
+                    <input type="email" id="correo" autocomplete="email" required>
+                </label>
+            
+                <label for="pais">
+                    <span>Pais</span>
+                    <input type="text" id="pais" autocomplete="country" required>
+                </label>
+            
+                <label for="cp">
+                    <span>Codigo postal</span>
+                    <input type="number" id="cp" autocomplete="postal-code" required>
+                </label>
+            
+                <input type="submit" value="Enviar ahora" class="button-enviar">
+               </form>
+        </section>
 
    <select name="cursos" id="">
     <option value="JavaScript">JavaScript</option>

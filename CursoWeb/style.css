@@ -1,0 +1,151 @@
+/* Aspectos generales */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+html{
+    font-size: 62.5%;
+
+}
+/* Fondo del sitio */
+body {
+    background-color: rgb(37, 35, 44);
+}
+h1, h2, p, span{
+    color: white;
+}
+/* ----- Tamaño de letra */
+input{
+    font-size: 1.6rem;
+}
+p, span,a{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h1{
+    font-size: 3rem;
+}
+
+/* ----------- Nav -------------------- */
+.main_nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(29, 37, 72);
+    border-radius: 4px;
+}
+
+.main_nav_item {
+    display: inline-block;
+    padding: 10px;
+}
+.main_nav_item a {
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: 0;
+}
+
+.main_nav_item a:hover{
+    color: rgb(80, 75, 225);
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------- Tarjetas ---------------- */
+.banner{
+    width: 100%;
+}
+
+
+        @media (width < 750px) {
+            .banner {
+                background-image: url('/imagenes/Banner_mediano.jpg');
+            }
+        }
+
+        @media (width < 500px) {
+            .banner {
+                background-image: url('/imagenes/Banner_chico.jpg');
+            }
+        }
+  
+
+/* ----------------- Tarjetas ---------------- */
+#tarjetas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.padre_tarjeta{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    width: 320px;
+    min-height: 300px;
+    background-color: #161320;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+}
+.padre_tarjeta img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+/* ----------------- Formulario ---------------- */
+
+.section-formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #182027;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    
+
+}
+.form label {
+    padding: 10px 0;
+    width: 200px;
+}
+.form input{
+    height: 25px;
+    width: 200px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+.button-enviar{
+    max-width: 70%;
+    border-radius:4px;
+    border: none;
+    height: 30px !important;
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 116, 184);
+}
+.button-enviar:hover{
+    background-color: rgb(39, 96, 153);
+    cursor: pointer;
+}

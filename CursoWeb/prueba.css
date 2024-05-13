@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: .3rem solid #000;
+    display: flex;
+    
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: rgb(223, 184, 136);
+}
+.box2{
+    background-color: rgb(242, 155, 223);
+}
+.box3{
+    background-color: rgb(137, 181, 117);
+}
