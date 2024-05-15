@@ -62,4 +62,42 @@ console.log(direccionCompleta);
 const nombre = "Jafeth";
 const pais = "Mexico"
 const presentacion = `Mi nombre es ${nombre} del pais ${pais}`;
-console.log(presentacion);
+console.log(presentacion)
+
+// ------- Conversión de tipos: Type Casting y Coercion  ------
+//Explicita **Type Casting**
+const string = '42'
+const integer = parseInt (string)
+const cambioDecimal = parseFloat(string);
+console.log (`Este dato es entero ${integer} y este decimal ${cambioDecimal}`)
+console.log (typeof integer)
+// Implícita **Type Casting**
+const suma = '5' + 3;
+console.log(suma)
+
+// Perfil social media 
+// 1. Informacion de usuaio 
+const username = 'ZeroHero'
+const fullName = 'Jafeth Jesus'
+const age = 23;
+const isStudent = true;
+
+// 2. Direccion 
+const address = {
+    street: '5 de mayo',
+    city: 'San Francisco',
+    state: 'CodiLand',
+    zipCode: '3312'
+}
+
+// 3. Hobbies
+const hobbies = ['Diseñar', 'Coding', 'Taekwondo']
+
+// 4. Bio 
+const TextoPersonalizado = ` Hola soy ${username}.
+Tengo ${age} años gatunos.
+Vivo en ${address.city} porque es la ciudad preferida de los Minions.
+Me encanta ${hobbies.join(', ')} `
+
+//Imprimir texto 
+console.log(TextoPersonalizado);
