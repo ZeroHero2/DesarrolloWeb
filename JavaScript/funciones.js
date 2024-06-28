@@ -101,3 +101,24 @@ function Character (){
 }
 
 Character ();
+
+// -------- Funciones con Binding -----------
+// Implicit Binding:
+const person = {
+    name: 'Adam',
+    greet: function() {
+      console.log(`Hello, I'm ${this.name}`);
+    }
+  };
+  
+  person.greet(); // Output: Hello, I'm Adam
+//   Explicit Binding:
+function greet() {
+    console.log(`Hello, I'm ${this.name}`);
+  }
+  
+  const adam = { name: 'Adam' };
+  
+  greet.call(adam); // Output: Hello, I'm Adam
+  
+//   New Binding:

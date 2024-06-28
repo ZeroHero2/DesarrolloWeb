@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetario Nutritivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recetario Nutritivo</h1>
+        <form id="recipe-form">
+            <input type="hidden" id="recipe-id">
+            <input type="text" id="name" placeholder="Nombre de la receta" required>
+            <input type="text" id="nutrition" placeholder="Información nutrimental" required>
+            <textarea id="recommendation" placeholder="Recomendaciones" required></textarea>
+            <button type="submit">Guardar receta</button>
+        </form>
+        <input type="text" id="search" placeholder="Buscar recetas...">
+        <div id="recipe-list"></div>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
