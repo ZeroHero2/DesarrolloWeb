@@ -1,3 +1,19 @@
 body {
-  background-color: rebeccapurple;
+  margin: 0;
+  padding: 0;
+} 
+.navbar {
+  background-color: #FFEFE7;
+  width: 100%;
+  height: 300px;
+}
+
+main {
+  background-color: #FFEFE7;
+}
+
+.footer {
+  background-color: #FA9500;
+  width: 100%;
+  height: 250px;
 }/*# sourceMappingURL=media.css.map */
