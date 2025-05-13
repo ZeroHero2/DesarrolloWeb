@@ -1,3 +1,7 @@
 ------ Link de figma para el prototipo -----
 
 https://www.figma.com/design/bcEVujIzJj5PNIWwF9pP2w/Platzi_YardSale?node-id=0-998&p=f&t=K2hhUzqkY7X4yzUg-0
+
+
+------ Link del repositorio -----
+https://github.com/platzi/curso-frontend-developer-practico/tree/main

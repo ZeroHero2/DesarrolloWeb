@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Proyectos/YardSale/style.css">
-    <title>Document</title>
+    <title>Password</title>
 </head>
 <body>
     <section class="login">
-
-    </section>
+    
     <section class="form-container">
-        <img src="" alt="logo" class="logo">
+        <img src="/Proyectos/YardSale/logos/logo_yard_sale.svg" alt="logo" class="logo">
 
         <h1 class="title"> Create a new password </h1>
         <p class="subtitle"> Enter a new password for your account</p>
 
-        <form action="POST">
+        <form action="POST" class="form">
             <label for="password" class="label_password">Password</label>
-            <input type="password" placeholder="********" class="input-password">
+            <input type="password" id="password" placeholder="********" class="input-password">
+
+            <label for="new-password" class="label_password">Password</label>
+            <input type="password" id="new-password" placeholder="********" class="input-password">
+
+            <input type="submit"  value="Confirm" class="primary-button login-button" >
 
         </form>
     </section> 
+    </section>
 </body>
 </html>
